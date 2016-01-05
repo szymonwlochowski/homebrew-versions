@@ -2,13 +2,14 @@ class Mysql55 < Formula
   desc "Open source relational database management system"
   homepage "http://dev.mysql.com/doc/refman/5.5/en/"
   url "https://dev.mysql.com/get/Downloads/MySQL-5.5/mysql-5.5.44.tar.gz"
-  sha256 "85f05b257db39e63c82ff4b5ce4e0c6d2b07560b5fc1646d47d7ae48eab3e5de"
+  sha256 "37e27305b67d76883c5902dce59c89d596beee9dca7dbadd4a2e117f8101dfeb"
 
   bottle do
     revision 2
     sha256 "eeacb7aba73191733f822f8e20bf19b220becca116120d3d1aeb9ec82d0d17bb" => :yosemite
     sha256 "0059b640fb7c4c02b485423e7135f0d4d30cda7c21533d16d460a9cf5deb2e87" => :mavericks
     sha256 "e2446972a03786904fbdc1e0388ebedb62f58dcc29b117d1eb8feed8b145d147" => :mountain_lion
+    sha256 "37e27305b67d76883c5902dce59c89d596beee9dca7dbadd4a2e117f8101dfeb" => :el_capitan
   end
 
   option :universal
